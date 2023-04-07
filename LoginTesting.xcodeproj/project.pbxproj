@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		EB4E393E29DC8DA4009DDDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E393D29DC8DA4009DDDCD /* AppDelegate.swift */; };
 		EB4E394029DC8DA4009DDDCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E393F29DC8DA4009DDDCD /* SceneDelegate.swift */; };
-		EB4E394229DC8DA4009DDDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E394129DC8DA4009DDDCD /* ViewController.swift */; };
-		EB4E394529DC8DA4009DDDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4E394329DC8DA4009DDDCD /* Main.storyboard */; };
 		EB4E394729DC8DA8009DDDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4E394629DC8DA8009DDDCD /* Assets.xcassets */; };
 		EB4E394A29DC8DA9009DDDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4E394829DC8DA9009DDDCD /* LaunchScreen.storyboard */; };
+		EB4E395329DC8FBA009DDDCD /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4E395229DC8FBA009DDDCD /* GoogleService-Info-2.plist */; };
+		EB4E395829DC901D009DDDCD /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E395729DC901D009DDDCD /* LoginUser.swift */; };
+		EB4E395A29DC902D009DDDCD /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E395929DC902D009DDDCD /* RegisterUser.swift */; };
+		EB4E395C29DC903D009DDDCD /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E395B29DC903D009DDDCD /* UserInfo.swift */; };
+		EB4E395E29DC9049009DDDCD /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E395D29DC9049009DDDCD /* AlertInfo.swift */; };
+		EB4E396029DC9078009DDDCD /* RegisterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E395F29DC9078009DDDCD /* RegisterHeader.swift */; };
+		EB4E396229DC9086009DDDCD /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396129DC9086009DDDCD /* CustomField.swift */; };
+		EB4E396429DC9094009DDDCD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396329DC9094009DDDCD /* CustomButton.swift */; };
+		EB4E396629DC90A4009DDDCD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396529DC90A4009DDDCD /* HomeController.swift */; };
+		EB4E396829DC90B2009DDDCD /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396729DC90B2009DDDCD /* LoginController.swift */; };
+		EB4E396A29DC90E0009DDDCD /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396929DC90E0009DDDCD /* RegisterController.swift */; };
+		EB4E396C29DC90F3009DDDCD /* ForgottenPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396B29DC90F3009DDDCD /* ForgottenPasswordController.swift */; };
+		EB4E396E29DCABDE009DDDCD /* AuthenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E396D29DCABDE009DDDCD /* AuthenManager.swift */; };
+		EB4E397129DCAE28009DDDCD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EB4E397029DCAE28009DDDCD /* FirebaseAuth */; };
+		EB4E397329DCAE28009DDDCD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EB4E397229DCAE28009DDDCD /* FirebaseDatabase */; };
+		EB4E397529DCAE28009DDDCD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EB4E397429DCAE28009DDDCD /* FirebaseFirestore */; };
+		EB4E397729DCAE28009DDDCD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EB4E397629DCAE28009DDDCD /* FirebaseStorage */; };
+		EB4E397929DDA36F009DDDCD /* ViewsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4E397829DDA36F009DDDCD /* ViewsExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB4E393A29DC8DA4009DDDCD /* LoginTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4E393D29DC8DA4009DDDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB4E393F29DC8DA4009DDDCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB4E394129DC8DA4009DDDCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB4E394429DC8DA4009DDDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4E394629DC8DA8009DDDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4E394929DC8DA9009DDDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4E394B29DC8DA9009DDDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4E395229DC8FBA009DDDCD /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		EB4E395729DC901D009DDDCD /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		EB4E395929DC902D009DDDCD /* RegisterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
+		EB4E395B29DC903D009DDDCD /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		EB4E395D29DC9049009DDDCD /* AlertInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
+		EB4E395F29DC9078009DDDCD /* RegisterHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterHeader.swift; sourceTree = "<group>"; };
+		EB4E396129DC9086009DDDCD /* CustomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
+		EB4E396329DC9094009DDDCD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EB4E396529DC90A4009DDDCD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		EB4E396729DC90B2009DDDCD /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EB4E396929DC90E0009DDDCD /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		EB4E396B29DC90F3009DDDCD /* ForgottenPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPasswordController.swift; sourceTree = "<group>"; };
+		EB4E396D29DCABDE009DDDCD /* AuthenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenManager.swift; sourceTree = "<group>"; };
+		EB4E397829DDA36F009DDDCD /* ViewsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4E397329DCAE28009DDDCD /* FirebaseDatabase in Frameworks */,
+				EB4E397729DCAE28009DDDCD /* FirebaseStorage in Frameworks */,
+				EB4E397129DCAE28009DDDCD /* FirebaseAuth in Frameworks */,
+				EB4E397529DCAE28009DDDCD /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,77 @@
 		EB4E393C29DC8DA4009DDDCD /* LoginTesting */ = {
 			isa = PBXGroup;
 			children = (
-				EB4E393D29DC8DA4009DDDCD /* AppDelegate.swift */,
-				EB4E393F29DC8DA4009DDDCD /* SceneDelegate.swift */,
-				EB4E394129DC8DA4009DDDCD /* ViewController.swift */,
-				EB4E394329DC8DA4009DDDCD /* Main.storyboard */,
-				EB4E394629DC8DA8009DDDCD /* Assets.xcassets */,
-				EB4E394829DC8DA9009DDDCD /* LaunchScreen.storyboard */,
+				EB4E397A29E047C6009DDDCD /* Resources */,
+				EB4E395629DC8FFC009DDDCD /* Model */,
+				EB4E395529DC8FED009DDDCD /* View */,
+				EB4E395429DC8FDF009DDDCD /* Controller */,
+				EB4E395229DC8FBA009DDDCD /* GoogleService-Info-2.plist */,
 				EB4E394B29DC8DA9009DDDCD /* Info.plist */,
 			);
 			path = LoginTesting;
+			sourceTree = "<group>";
+		};
+		EB4E395429DC8FDF009DDDCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E396529DC90A4009DDDCD /* HomeController.swift */,
+				EB4E396729DC90B2009DDDCD /* LoginController.swift */,
+				EB4E396929DC90E0009DDDCD /* RegisterController.swift */,
+				EB4E396B29DC90F3009DDDCD /* ForgottenPasswordController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB4E395529DC8FED009DDDCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E395F29DC9078009DDDCD /* RegisterHeader.swift */,
+				EB4E396129DC9086009DDDCD /* CustomField.swift */,
+				EB4E396329DC9094009DDDCD /* CustomButton.swift */,
+				EB4E397829DDA36F009DDDCD /* ViewsExtension.swift */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EB4E395629DC8FFC009DDDCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E395729DC901D009DDDCD /* LoginUser.swift */,
+				EB4E395929DC902D009DDDCD /* RegisterUser.swift */,
+				EB4E395B29DC903D009DDDCD /* UserInfo.swift */,
+				EB4E395D29DC9049009DDDCD /* AlertInfo.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EB4E397A29E047C6009DDDCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E397E29E073CF009DDDCD /* AuthenManager */,
+				EB4E397B29E047D3009DDDCD /* AppResources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB4E397B29E047D3009DDDCD /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E394629DC8DA8009DDDCD /* Assets.xcassets */,
+				EB4E394829DC8DA9009DDDCD /* LaunchScreen.storyboard */,
+				EB4E393D29DC8DA4009DDDCD /* AppDelegate.swift */,
+				EB4E393F29DC8DA4009DDDCD /* SceneDelegate.swift */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		EB4E397E29E073CF009DDDCD /* AuthenManager */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E396D29DCABDE009DDDCD /* AuthenManager.swift */,
+			);
+			path = AuthenManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +177,12 @@
 			dependencies = (
 			);
 			name = LoginTesting;
+			packageProductDependencies = (
+				EB4E397029DCAE28009DDDCD /* FirebaseAuth */,
+				EB4E397229DCAE28009DDDCD /* FirebaseDatabase */,
+				EB4E397429DCAE28009DDDCD /* FirebaseFirestore */,
+				EB4E397629DCAE28009DDDCD /* FirebaseStorage */,
+			);
 			productName = LoginTesting;
 			productReference = EB4E393A29DC8DA4009DDDCD /* LoginTesting.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +211,9 @@
 				Base,
 			);
 			mainGroup = EB4E393129DC8DA4009DDDCD;
+			packageReferences = (
+				EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EB4E393B29DC8DA4009DDDCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +230,7 @@
 			files = (
 				EB4E394A29DC8DA9009DDDCD /* LaunchScreen.storyboard in Resources */,
 				EB4E394729DC8DA8009DDDCD /* Assets.xcassets in Resources */,
-				EB4E394529DC8DA4009DDDCD /* Main.storyboard in Resources */,
+				EB4E395329DC8FBA009DDDCD /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4E394229DC8DA4009DDDCD /* ViewController.swift in Sources */,
+				EB4E395E29DC9049009DDDCD /* AlertInfo.swift in Sources */,
+				EB4E396C29DC90F3009DDDCD /* ForgottenPasswordController.swift in Sources */,
+				EB4E396A29DC90E0009DDDCD /* RegisterController.swift in Sources */,
+				EB4E396829DC90B2009DDDCD /* LoginController.swift in Sources */,
+				EB4E395A29DC902D009DDDCD /* RegisterUser.swift in Sources */,
+				EB4E396629DC90A4009DDDCD /* HomeController.swift in Sources */,
+				EB4E396229DC9086009DDDCD /* CustomField.swift in Sources */,
+				EB4E396429DC9094009DDDCD /* CustomButton.swift in Sources */,
 				EB4E393E29DC8DA4009DDDCD /* AppDelegate.swift in Sources */,
+				EB4E397929DDA36F009DDDCD /* ViewsExtension.swift in Sources */,
+				EB4E395829DC901D009DDDCD /* LoginUser.swift in Sources */,
+				EB4E396029DC9078009DDDCD /* RegisterHeader.swift in Sources */,
+				EB4E395C29DC903D009DDDCD /* UserInfo.swift in Sources */,
+				EB4E396E29DCABDE009DDDCD /* AuthenManager.swift in Sources */,
 				EB4E394029DC8DA4009DDDCD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +262,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB4E394329DC8DA4009DDDCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB4E394429DC8DA4009DDDCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB4E394829DC8DA9009DDDCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +399,6 @@
 				INFOPLIST_FILE = LoginTesting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +426,6 @@
 				INFOPLIST_FILE = LoginTesting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +463,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB4E397029DCAE28009DDDCD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EB4E397229DCAE28009DDDCD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		EB4E397429DCAE28009DDDCD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EB4E397629DCAE28009DDDCD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB4E396F29DCAE28009DDDCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB4E393229DC8DA4009DDDCD /* Project object */;
 }

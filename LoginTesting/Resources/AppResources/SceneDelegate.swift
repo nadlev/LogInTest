@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -13,10 +15,42 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        self.setupWindow(with: scene)
+        self.checkAuthen()
+    }
+    
+    private func setupWindow(with scene: UIScene) {
+        guard let windowScene = (scene as? UIWindowScene) else {
+            return
+        }
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        self.window?.makeKeyAndVisible()
+    }
+    
+    public func checkAuthen() {
+        if Auth.auth().currentUser == nil {
+            self.moveToController(with: LogInViewController())
+        } else {
+            self.moveToController(with: HomeViewController())
+        }
+    }
+    
+    private func moveToController(with vc: UIViewController) {
+        DispatchQueue.main.async { [weak self] in
+            UIView.animate(withDuration: 0.25) {
+                self?.window?.layer.opacity = 0
+            } completion: { [weak self] _ in
+                let nc = UINavigationController(rootViewController: vc)
+                nc.modalPresentationStyle = .fullScreen
+                nc.navigationBar.prefersLargeTitles = true
+                self?.window?.rootViewController = nc
+                
+                UIView.animate(withDuration: 0.25) { [weak self] in
+                    self?.window?.layer.opacity = 1
+                }
+            }
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
