@@ -22,6 +22,9 @@ class LogInViewController: UIViewController {
     
     private let forgottenPassword = CustomingButton(title: "I forgot my password", fontSize: .small)
     
+    
+    //life cycle methods
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
